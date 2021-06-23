@@ -15,6 +15,8 @@
 		756AD2282682C24800BF5D6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 756AD2262682C24800BF5D6A /* LaunchScreen.storyboard */; };
 		756AD2332682C24800BF5D6A /* SalonKadai1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756AD2322682C24800BF5D6A /* SalonKadai1Tests.swift */; };
 		756AD23E2682C24800BF5D6A /* SalonKadai1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756AD23D2682C24800BF5D6A /* SalonKadai1UITests.swift */; };
+		756AD2532682CF4700BF5D6A /* Calculate.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 756AD2522682CF4700BF5D6A /* Calculate.storyboard */; };
+		756AD2582682CF5D00BF5D6A /* CalculateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756AD2572682CF5D00BF5D6A /* CalculateViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		756AD2392682C24800BF5D6A /* SalonKadai1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SalonKadai1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		756AD23D2682C24800BF5D6A /* SalonKadai1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalonKadai1UITests.swift; sourceTree = "<group>"; };
 		756AD23F2682C24800BF5D6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		756AD2522682CF4700BF5D6A /* Calculate.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Calculate.storyboard; sourceTree = "<group>"; };
+		756AD2572682CF5D00BF5D6A /* CalculateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		756AD21A2682C24400BF5D6A /* SalonKadai1 */ = {
 			isa = PBXGroup;
 			children = (
+				756AD24E2682CC0900BF5D6A /* Calculate */,
 				756AD21B2682C24400BF5D6A /* AppDelegate.swift */,
 				756AD21D2682C24400BF5D6A /* SceneDelegate.swift */,
 				756AD21F2682C24400BF5D6A /* ViewController.swift */,
@@ -126,6 +131,15 @@
 				756AD23F2682C24800BF5D6A /* Info.plist */,
 			);
 			path = SalonKadai1UITests;
+			sourceTree = "<group>";
+		};
+		756AD24E2682CC0900BF5D6A /* Calculate */ = {
+			isa = PBXGroup;
+			children = (
+				756AD2522682CF4700BF5D6A /* Calculate.storyboard */,
+				756AD2572682CF5D00BF5D6A /* CalculateViewController.swift */,
+			);
+			path = Calculate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				756AD2282682C24800BF5D6A /* LaunchScreen.storyboard in Resources */,
+				756AD2532682CF4700BF5D6A /* Calculate.storyboard in Resources */,
 				756AD2252682C24800BF5D6A /* Assets.xcassets in Resources */,
 				756AD2232682C24400BF5D6A /* Main.storyboard in Resources */,
 			);
@@ -259,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				756AD2202682C24400BF5D6A /* ViewController.swift in Sources */,
+				756AD2582682CF5D00BF5D6A /* CalculateViewController.swift in Sources */,
 				756AD21C2682C24400BF5D6A /* AppDelegate.swift in Sources */,
 				756AD21E2682C24400BF5D6A /* SceneDelegate.swift in Sources */,
 			);
