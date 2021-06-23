@@ -23,6 +23,15 @@ final class CalculateViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupPresenter()
+        setupKeyboard()
+    }
+    
+    private func setupKeyboard() {
+        textField1.keyboardType = .numberPad
+        textField2.keyboardType = .numberPad
+        textField3.keyboardType = .numberPad
+        textField4.keyboardType = .numberPad
+        textField5.keyboardType = .numberPad
     }
     
     private func setupPresenter() {
