@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Wl3-ZF-W7b">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
@@ -62,6 +62,9 @@
                                     <constraint firstAttribute="width" constant="97" id="i3m-Qq-JJh"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="calculateButtonTapped:" destination="Wl3-ZF-W7b" eventType="touchUpInside" id="q1O-Wx-zNr"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4pM-7j-ESb">
                                 <rect key="frame" x="20" y="292" width="42" height="21"/>
@@ -89,6 +92,14 @@
                             <constraint firstItem="2xb-Sa-p4E" firstAttribute="leading" secondItem="tJS-M6-sNF" secondAttribute="leading" constant="20" id="zM0-Ah-RMB"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="resultLabel" destination="4pM-7j-ESb" id="KP6-Iv-BfJ"/>
+                        <outlet property="textField1" destination="23b-jv-NwA" id="Ag1-Fa-fdF"/>
+                        <outlet property="textField2" destination="Jta-yG-3Jl" id="x4T-P8-mJY"/>
+                        <outlet property="textField3" destination="soB-Vd-P8h" id="zxl-kS-cOF"/>
+                        <outlet property="textField4" destination="KsB-qq-x4e" id="xFc-IK-V0z"/>
+                        <outlet property="textField5" destination="N1X-Pk-SkM" id="Fgb-Vq-ORr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3u8-E5-WZv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
