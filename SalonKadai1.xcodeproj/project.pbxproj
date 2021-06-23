@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		756AD21C2682C24400BF5D6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756AD21B2682C24400BF5D6A /* AppDelegate.swift */; };
 		756AD21E2682C24400BF5D6A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756AD21D2682C24400BF5D6A /* SceneDelegate.swift */; };
-		756AD2202682C24400BF5D6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756AD21F2682C24400BF5D6A /* ViewController.swift */; };
-		756AD2232682C24400BF5D6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 756AD2212682C24400BF5D6A /* Main.storyboard */; };
 		756AD2252682C24800BF5D6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 756AD2242682C24800BF5D6A /* Assets.xcassets */; };
 		756AD2282682C24800BF5D6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 756AD2262682C24800BF5D6A /* LaunchScreen.storyboard */; };
 		756AD2332682C24800BF5D6A /* SalonKadai1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756AD2322682C24800BF5D6A /* SalonKadai1Tests.swift */; };
@@ -43,8 +41,6 @@
 		756AD2182682C24400BF5D6A /* SalonKadai1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SalonKadai1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		756AD21B2682C24400BF5D6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		756AD21D2682C24400BF5D6A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		756AD21F2682C24400BF5D6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		756AD2222682C24400BF5D6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		756AD2242682C24800BF5D6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		756AD2272682C24800BF5D6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		756AD2292682C24800BF5D6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -113,8 +109,6 @@
 				756AD24E2682CC0900BF5D6A /* Calculate */,
 				756AD21B2682C24400BF5D6A /* AppDelegate.swift */,
 				756AD21D2682C24400BF5D6A /* SceneDelegate.swift */,
-				756AD21F2682C24400BF5D6A /* ViewController.swift */,
-				756AD2212682C24400BF5D6A /* Main.storyboard */,
 				756AD2242682C24800BF5D6A /* Assets.xcassets */,
 				756AD2262682C24800BF5D6A /* LaunchScreen.storyboard */,
 				756AD2292682C24800BF5D6A /* Info.plist */,
@@ -144,9 +138,9 @@
 			isa = PBXGroup;
 			children = (
 				756AD2522682CF4700BF5D6A /* Calculate.storyboard */,
-				756AD2572682CF5D00BF5D6A /* CalculateViewController.swift */,
-				756AD25F2682D32900BF5D6A /* CalculatePresenter.swift */,
 				756AD2642682D33B00BF5D6A /* CalculateModel.swift */,
+				756AD25F2682D32900BF5D6A /* CalculatePresenter.swift */,
+				756AD2572682CF5D00BF5D6A /* CalculateViewController.swift */,
 			);
 			path = Calculate;
 			sourceTree = "<group>";
@@ -265,7 +259,6 @@
 				756AD2282682C24800BF5D6A /* LaunchScreen.storyboard in Resources */,
 				756AD2532682CF4700BF5D6A /* Calculate.storyboard in Resources */,
 				756AD2252682C24800BF5D6A /* Assets.xcassets in Resources */,
-				756AD2232682C24400BF5D6A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,7 +283,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				756AD2202682C24400BF5D6A /* ViewController.swift in Sources */,
 				756AD26B2682D5F000BF5D6A /* String+Ext.swift in Sources */,
 				756AD2582682CF5D00BF5D6A /* CalculateViewController.swift in Sources */,
 				756AD2602682D32900BF5D6A /* CalculatePresenter.swift in Sources */,
@@ -332,14 +324,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		756AD2212682C24400BF5D6A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				756AD2222682C24400BF5D6A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		756AD2262682C24800BF5D6A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
