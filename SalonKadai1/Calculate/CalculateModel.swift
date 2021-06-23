@@ -8,9 +8,11 @@
 import Foundation
 
 protocol CalculateModelInput {
-    
+    func sumNumbers(_ numbers: [Int]) -> Int
 }
 
 final class CalculateModel : CalculateModelInput {
-    
+    func sumNumbers(_ numbers: [Int]) -> Int {
+        numbers.reduce(0) { $0 + $1 }
+    }
 }

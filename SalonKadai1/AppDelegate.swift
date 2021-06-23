@@ -13,18 +13,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        
-        let calculateViewController = UIStoryboard(name: .storyboardName, bundle: nil).instantiateInitialViewController() as! CalculateViewController
-        let navigationController = UINavigationController(rootViewController: calculateViewController)
-        
-        let model = CalculateModel()
-        let presenter = CalculatePresenter(view: calculateViewController, model: model)
-        calculateViewController.inject(presenter: presenter)
-        
-        window = UIWindow(frame: UIScreen.main.bounds)
-        window?.rootViewController = navigationController
-        window?.makeKeyAndVisible()
-        
         return true
     }
 
