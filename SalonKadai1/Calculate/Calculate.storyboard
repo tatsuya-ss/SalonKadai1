@@ -63,7 +63,7 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="calculateButtonTapped:" destination="Wl3-ZF-W7b" eventType="touchUpInside" id="q1O-Wx-zNr"/>
+                                    <action selector="calculateButtonTapped:" destination="Wl3-ZF-W7b" eventType="touchUpInside" id="cnx-E5-OSN"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4pM-7j-ESb">
@@ -93,12 +93,12 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="resultLabel" destination="4pM-7j-ESb" id="KP6-Iv-BfJ"/>
-                        <outlet property="textField1" destination="23b-jv-NwA" id="Ag1-Fa-fdF"/>
-                        <outlet property="textField2" destination="Jta-yG-3Jl" id="x4T-P8-mJY"/>
-                        <outlet property="textField3" destination="soB-Vd-P8h" id="zxl-kS-cOF"/>
-                        <outlet property="textField4" destination="KsB-qq-x4e" id="xFc-IK-V0z"/>
-                        <outlet property="textField5" destination="N1X-Pk-SkM" id="Fgb-Vq-ORr"/>
+                        <outlet property="resultLabel" destination="4pM-7j-ESb" id="IdC-Bq-QjO"/>
+                        <outlet property="textField1" destination="23b-jv-NwA" id="fnh-Kp-ugU"/>
+                        <outlet property="textField2" destination="Jta-yG-3Jl" id="hpc-3i-6gH"/>
+                        <outlet property="textField3" destination="soB-Vd-P8h" id="5jK-kb-Reh"/>
+                        <outlet property="textField4" destination="KsB-qq-x4e" id="3qa-Fb-i2e"/>
+                        <outlet property="textField5" destination="N1X-Pk-SkM" id="ZYn-QY-smy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3u8-E5-WZv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
