@@ -17,6 +17,9 @@
 		756AD23E2682C24800BF5D6A /* SalonKadai1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756AD23D2682C24800BF5D6A /* SalonKadai1UITests.swift */; };
 		756AD2532682CF4700BF5D6A /* Calculate.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 756AD2522682CF4700BF5D6A /* Calculate.storyboard */; };
 		756AD2582682CF5D00BF5D6A /* CalculateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756AD2572682CF5D00BF5D6A /* CalculateViewController.swift */; };
+		756AD2602682D32900BF5D6A /* CalculatePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756AD25F2682D32900BF5D6A /* CalculatePresenter.swift */; };
+		756AD2652682D33B00BF5D6A /* CalculateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756AD2642682D33B00BF5D6A /* CalculateModel.swift */; };
+		756AD26B2682D5F000BF5D6A /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756AD26A2682D5F000BF5D6A /* String+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		756AD23F2682C24800BF5D6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		756AD2522682CF4700BF5D6A /* Calculate.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Calculate.storyboard; sourceTree = "<group>"; };
 		756AD2572682CF5D00BF5D6A /* CalculateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateViewController.swift; sourceTree = "<group>"; };
+		756AD25F2682D32900BF5D6A /* CalculatePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatePresenter.swift; sourceTree = "<group>"; };
+		756AD2642682D33B00BF5D6A /* CalculateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateModel.swift; sourceTree = "<group>"; };
+		756AD26A2682D5F000BF5D6A /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,7 @@
 		756AD21A2682C24400BF5D6A /* SalonKadai1 */ = {
 			isa = PBXGroup;
 			children = (
+				756AD2692682D5A800BF5D6A /* Extension */,
 				756AD24E2682CC0900BF5D6A /* Calculate */,
 				756AD21B2682C24400BF5D6A /* AppDelegate.swift */,
 				756AD21D2682C24400BF5D6A /* SceneDelegate.swift */,
@@ -138,8 +145,18 @@
 			children = (
 				756AD2522682CF4700BF5D6A /* Calculate.storyboard */,
 				756AD2572682CF5D00BF5D6A /* CalculateViewController.swift */,
+				756AD25F2682D32900BF5D6A /* CalculatePresenter.swift */,
+				756AD2642682D33B00BF5D6A /* CalculateModel.swift */,
 			);
 			path = Calculate;
+			sourceTree = "<group>";
+		};
+		756AD2692682D5A800BF5D6A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				756AD26A2682D5F000BF5D6A /* String+Ext.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,8 +291,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				756AD2202682C24400BF5D6A /* ViewController.swift in Sources */,
+				756AD26B2682D5F000BF5D6A /* String+Ext.swift in Sources */,
 				756AD2582682CF5D00BF5D6A /* CalculateViewController.swift in Sources */,
+				756AD2602682D32900BF5D6A /* CalculatePresenter.swift in Sources */,
 				756AD21C2682C24400BF5D6A /* AppDelegate.swift in Sources */,
+				756AD2652682D33B00BF5D6A /* CalculateModel.swift in Sources */,
 				756AD21E2682C24400BF5D6A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
